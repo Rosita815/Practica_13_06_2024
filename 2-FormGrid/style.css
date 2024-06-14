@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 1.5em;
+    line-height: 1.6;
+}
+
+.content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+.logo{
+    text-align: center;
+    font-size: Jen;
+}
+.logo span{
+    color: red;
+}
+.contac-container {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bloque {
+}
+
+.animated {
+}
+.bounceInUp {
+}
+.contact-form {
+    background: #222222;
+}
+.contact-form label{
+   display: block;
+}
+.contact-info {
+    background-color: black;
+}
+.fas {
+}
+.fa-map-marked-alt {
+}
+.fa-phone {
+}
+.fa-envelope-open-text {
+}
