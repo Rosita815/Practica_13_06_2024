@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -26,6 +28,7 @@ body{
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
 .bloque {
@@ -37,9 +40,38 @@ body{
 }
 .contact-form {
     background: #222222;
+    padding: 20px;
+    border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+}
+.contact-form form h3{
+    color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
 .contact-form label{
-   display: block;
+   color: #fff;
+   margin-bottom: 5px;
+
+}
+.contact-form form input, .contact-form form textarea{
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #4444;
+  color: #fff;
+  outline: none;
+}
+.contact-form form button{
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
 }
 .contact-info {
     background-color: black;
